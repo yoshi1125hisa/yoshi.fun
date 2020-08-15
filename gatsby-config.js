@@ -5,13 +5,14 @@ require(`dotenv`).config({
 module.exports = {
     siteMetadata: {
         siteTitleAlt: `yoshi`,
-        siteTitle: `yoshi`,
+        siteTitle: `yoshi - Yoshihisa Kaino`,
         siteUrl: `http://127.0.0.1`,
         siteDescription: `My portfolio`,
         siteLanguage: `ja`,
-        siteImage: `/banner.png`,
+        siteImage: `https://yoshi.fun/banner.png`,
         author: `@yoshi1125hisa`,
         siteHeadline: ``,
+        siteLicense: `All rights reserved`,
     },
     plugins: [
         {
@@ -40,6 +41,10 @@ module.exports = {
                     {
                         name: `Wantedly`,
                         url: `https://www.wantedly.com/users/136325101`,
+                    },
+                    {
+                        name: `GitHub`,
+                        url: `https://github.com/yoshi1125hisa`,
                     },
                 ],
             },
