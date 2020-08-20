@@ -31,14 +31,6 @@ module.exports = {
                 ],
                 externalLinks: [
                     {
-                        name: `Twitter`,
-                        url: `https://twitter.com/yoshi1125hisa`,
-                    },
-                    {
-                        name: `Facebook`,
-                        url: `https://www.facebook.com/yoshi1125hisa`,
-                    },
-                    {
                         name: `Wantedly`,
                         url: `https://www.wantedly.com/users/136325101`,
                     },
@@ -52,7 +44,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
-                trackingId: process.env.GOOGLE_ANALYTICS_ID,
+                trackingId: 'UA-120739547-11',
             },
         },
         `gatsby-plugin-sitemap`,
